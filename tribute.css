@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  font-size: 1.5em;
+  font-family: "roboto";
+  line-height: 1.6;
+  color: #222;
+}
+html {
+  font-size: 12px;
+}
+
+.bg-image {
+  background-image: url(images/wigwe1.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.9; */
+}
+
+#first-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.text-styling {
+  display: inline-block;
+  font-size: 4.8rem;
+  /* border: 1px solid #fff; */
+  text-transform: uppercase;
+  width: 5%;
+  word-wrap: break-word;
+  padding: 2px;
+  color: rgb(197, 221, 197);
+  opacity: 0.8;
+  margin: auto 10%;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.text-style {
+  font-size: 5rem;
+  width: 4.2%;
+  word-wrap: break-word;
+  padding: 0px 8px;
+  /* margin-bottom: 1px; */
+  line-height: 1.53em;
+}
+
+.heading {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 1%;
+  left: 16%;
+  justify-content: space-between;
+
+  /* border: 1px solid red; */
+  width: 50em;
+  height: 90vh;
+  text-align: center;
+}
+
+.head-text {
+  font-size: 3em;
+  font-weight: bold;
+}
+.head-year {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* second div styles */
+
+#second-div {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #fff;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#second-div-text {
+  order: 1;
+  flex-grow: 1;
+  min-width: 30%;
+  margin-top: 25vh;
+  font-size: 2.3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 25vh;
+}
+
+#dusky-quote {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+em {
+  font-size: 0.6em;
+}
+
+.second-div-image {
+  order: 2;
+  flex-grow: 1;
+  min-width: 45%;
+  align-self: center;
+  max-width: 500px;
+  margin-right: 6%;
+}
+
+/* for the image */
+.dusky-image {
+  max-width: 100%;
+  box-sizing: border-box;
+  float: right;
+}
+
+/* third div */
+
+#third-div {
+  background-color: black;
+  min-height: 10vh;
+}
+
+.container {
+  width: 55%;
+  text-align: center;
+  /* margin: 0 auto; */
+  padding: 6% 1%;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+#autor-text {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 0.6vh;
+}
+
+/* SWIPER STYLES */
+
+.swiper {
+  width: 100%;
+  height: 26em;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #123864;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(221, 210, 210);
+}
+
+#third-div-title {
+  text-decoration: underline;
+}
